@@ -2,6 +2,7 @@
     <string name="app_name">GuiaAndroidStudio_RecyclerView</string>
     <string name="pikachu">Pikachu</string>
     <string name="Miutu">Miutu</string>
-    <string name="charizar">Charizar</string>
+    <string name="charizar">Charizard</string>
     <string name="turtonator">Turtonator</string>
+    <string name="mega_charizard">M. Charizard</string>
 </resources>

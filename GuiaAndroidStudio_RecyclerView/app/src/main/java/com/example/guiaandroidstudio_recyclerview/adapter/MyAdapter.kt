@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.recyclerview.widget.RecyclerView
 import com.example.guiaandroidstudio_recyclerview.R
@@ -26,6 +27,7 @@ class MyAdapter(private val context: Context,private val lista:List<CartasPokemo
         val texto:TextView = view.findViewById(R.id.tvNombre)
         val imagen:ImageView = view.findViewById(R.id.ivImagen)
 
+
     }
 
     // Llama a este método siempre que necesita crear una ViewHolder nueva.
@@ -42,6 +44,12 @@ class MyAdapter(private val context: Context,private val lista:List<CartasPokemo
         val item = lista[position]
         holder.texto.text = context.resources.getString(item.idNombre)
         holder.imagen.setImageResource(item.idImagen)
+
+        //Creo un listener para escribir un toast cada vez que se haga click en la imagen
+        holder.imagen.setOnClickListener{
+            Toast.makeText(context,"Soy ${holder.texto.text}",Toast.LENGTH_SHORT).show()
+
+        }
 
 
     }

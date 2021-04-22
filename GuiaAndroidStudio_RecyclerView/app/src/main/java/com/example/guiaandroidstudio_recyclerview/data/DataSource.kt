@@ -14,7 +14,8 @@ class DataSource {
             CartasPokemon(R.string.pikachu,R.drawable.cartapikachu),
             CartasPokemon(R.string.Miutu,R.drawable.cartamiutu),
             CartasPokemon(R.string.charizar,R.drawable.cartacharizar),
-            CartasPokemon(R.string.turtonator,R.drawable.turtonator)
+            CartasPokemon(R.string.turtonator,R.drawable.turtonator),
+            CartasPokemon(R.string.mega_charizard,R.drawable.mega_charizard)
 
         )
 

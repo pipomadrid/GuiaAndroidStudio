@@ -3,6 +3,7 @@ package com.example.guiaandroidstudio_recyclerview
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.widget.Toast
 import com.example.guiaandroidstudio_recyclerview.adapter.MyAdapter
 import com.example.guiaandroidstudio_recyclerview.data.DataSource
 import com.example.guiaandroidstudio_recyclerview.databinding.ActivityMainBinding
@@ -28,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         //necesarios de nuestra clase MyAdapter creada anteriormente
         recyclerView.adapter = MyAdapter(this ,lista)
         recyclerView.setHasFixedSize(true)
+
+
 
 
 
