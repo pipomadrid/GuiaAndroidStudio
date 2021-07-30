@@ -6,7 +6,7 @@ import com.example.guiaandroidstudio_recyclerview.model.CartasPokemon
 class DataSource {
 
 
- // realizamos una función que devolverá una lista de cartas pokemon y que utilzaremosen la main activity
+ // realizamos una función que devolverá una lista de cartas pokemon y que utilzaremos en la main activity
     fun cargarCartasPokemon():List<CartasPokemon>{
 
         return listOf(

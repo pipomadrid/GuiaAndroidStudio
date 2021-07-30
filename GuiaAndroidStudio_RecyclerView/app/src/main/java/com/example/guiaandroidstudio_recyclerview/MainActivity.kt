@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         // Creamos un recycler  vinculandolo con el xml
         val recyclerView = binding.rvPrueba
 
-        //adapter es el equvalete a setAdapter con el que pasamos un adpater al recycler creado con los parámetros
+        //adapter es el equivalente a setAdapter con el que pasamos un adapter al recycler creado con los parámetros
         //necesarios de nuestra clase MyAdapter creada anteriormente
         recyclerView.adapter = MyAdapter(this ,lista)
         recyclerView.setHasFixedSize(true)
